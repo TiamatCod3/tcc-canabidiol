@@ -23,14 +23,13 @@ Resultados e conclusões: Com base na análise dos dados, serão apresentados os
 ## Ferramentas e Tecnologias
 Neste projeto, serão utilizadas as seguintes ferramentas e tecnologias:
 
-Linguagem de programação: Python
-Bibliotecas: Pandas, NumPy, Matplotlib
-Google Colab
-Git
+Linguagem de programação: Python<br>
+Bibliotecas: Pandas, NumPy, Matplotlib<br>
+Plataforma: Google Colab
 
 ## Organização do Repositório
 A estrutura deste repositório é a seguinte:
 
-data/: Diretório que armazena os conjuntos de dados utilizados na análise.
-notebooks/: Diretório que contém os notebooks utilizados para a análise dos dados.
+Dados/: Diretório que armazena os conjuntos de dados utilizados na análise.<br>
+Notebooks/: Diretório que contém os notebooks utilizados para a análise dos dados.<br>
 src/: Diretório que contém eventuais códigos-fonte desenvolvidos
