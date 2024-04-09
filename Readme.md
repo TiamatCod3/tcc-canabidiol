@@ -33,3 +33,5 @@ A estrutura deste repositório é a seguinte:
 Dados/: Diretório que armazena os conjuntos de dados utilizados na análise.<br>
 Notebooks/: Diretório que contém os notebooks utilizados para a análise dos dados.<br>
 src/: Diretório que contém eventuais códigos-fonte desenvolvidos
+
+Teste de Commit 
