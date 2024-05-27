@@ -126,14 +126,15 @@ Parte principal do artigo, que contém a a metodologia, os resultados obtidos e 
 \subsection{Metodologia}
 
 \subsubsection{Coleta de dados}
-
-Coleta de dados
+A fonte primária do presente trabalho foi obtida por meio dos dados de dispensação de medicamentos do componente especializado da assistência farmaceutica que são enviados mensalmente para faturamento do programa em questão. Esses dados se tornam uma fonte útil de análise por serem públicos e possuírem dados atômicos de cada paciente a cada mês. O envio desta prestação de contas ao Ministério da Saúde é feito usando um documento chamado de APAC - Autorização de Procedimento de Alta Complexidade - que envolve o financiamento de programais de média e alta complexiadde do SUS, incluindo transplantes e oncologia, bem como os medicamentos em questão. 
+Os registros das APAC geradas a cada mês pelo sistema SIASUS foram utilizadas e extraídas do sítio apropriado(fonte) no formato DBC. Este é um formato compactado do arquivo do tipo DBF, originalmente utilizado pelo DBase. Estes arquivos podem ser tabulados utilizando o programa TabWin 4.1 que permite gerar consultas e extrair os dados com filtros de acordo com as condições necessárias e critérios de inclusão do estudo. Para realização das tabulações, também é necessário baixar os arquivos de extensão DEF, de definição, que permite modelar esta extração com os critérios necessários par ao estudo. 
+No presente estudo foram filtradas as dispensações de medicamentos que estavam associadas ao CID G40.0 a G40.8 relativos à epilepsia e regulados pelo Protocolo Clínico e Diretrizes Terapêuticas da doença em questão. Apesar do arquivo de APAC ser elaborado mensalmente, as extrações foram agregadas anualmente em formato csv para posterior ingestão no sistema de análise.
 
 \subsubsection{Tratamento dos dados}
 
-Com os arquivos 'csv' extraidos, é possivel dar inicio ao processo de tratamento dos dados, que inclui a concatenacao das bases, renomeacao de colunas, mapeamento de dados para tornar mais facil a leitura e criterios de inclusao da analise, alem de uma analise exploratoria dos dados. 
+Com os arquivos extraidos, foi possivel dar inicio ao processo de tratamento dos dados, que inclui a concatenacao das bases anualmente, renomeacao de colunas, mapeamento de dados para tornar mais facil a leitura e criterios de inclusao da analise, alem de uma analise exploratoria dos dados. #Acho que não precisa dessa parte ou pode ser um aparágrafo, pois esta tudo na mesma frase
 
-A linguagem escolhida para trabalhar os dados foi Python, devido a sua baixa curva de aprendizado e grande variedade de bibliotecas disponiveis para manipulacao de dados e geracao de graficos. Alem do Python 3.x, foram utilizadas as bibliotecas Pandas para criacao de DataFrames para manipulacao, transformacao, analises dos dados e visualizacao, e a biblioteca Matplotlib para gerar graficos a partir dos DataFrames Pandas.
+A linguagem escolhida para trabalhar os dados foi Python, devido a sua rápida curva de aprendizado e grande variedade de bibliotecas disponiveis para manipulacao de dados e geracao de graficos. Alem do Python 3.x, foram utilizadas as bibliotecas Pandas para criacao de DataFrames para manipulacao, transformacao, analises dos dados e visualizacao, e a biblioteca Matplotlib para gerar graficos a partir dos DataFrames Pandas. #acho que dataframes teria que estar em minúsculo, eu não sei qual o padrão
 
 Primeiramente, deve-se concatenar as bases, visto que após a extracao sao gerados arquivos no formato 'csv' com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operacoes subsequentes. Foram encontrados 89.348 registros de consultas, distribuidos em 51 colunas de informacoes. Afim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que sao desinteressantes para a analise, reduzindo de 51 colunas originais para apenas 24.
 
