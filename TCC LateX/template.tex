@@ -125,19 +125,27 @@ Parte principal do artigo, que contém a a metodologia, os resultados obtidos e 
 
 \subsection{Metodologia}
 
-As citações apresenta
-
 \subsubsection{Coleta de dados}
 
 Coleta de dados
 
 \subsubsection{Tratamento dos dados}
 
-Tratamento dos dados
+Com os arquivos 'csv' extraidos, é possivel dar inicio ao processo de tratamento dos dados, que inclui a concatenacao das bases, renomeacao de colunas, mapeamento de dados para tornar mais facil a leitura e criterios de inclusao da analise, alem de uma analise exploratoria dos dados. 
+
+A linguagem escolhida para trabalhar os dados foi Python, devido a sua baixa curva de aprendizado e grande variedade de bibliotecas disponiveis para manipulacao de dados e geracao de graficos. Alem do Python 3.x, foram utilizadas as bibliotecas Pandas para criacao de DataFrames para manipulacao, transformacao, analises dos dados e visualizacao, e a biblioteca Matplotlib para gerar graficos a partir dos DataFrames Pandas.
+
+Primeiramente, deve-se concatenar as bases, visto que após a extracao sao gerados arquivos no formato 'csv' com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operacoes subsequentes. Foram encontrados 89.348 registros de consultas, distribuidos em 51 colunas de informacoes. Afim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que sao desinteressantes para a analise, reduzindo de 51 colunas originais para apenas 24.
+
+Em seguida, foram criados dicionarios de chave e valor, visando tanto renomear colunas quanto traduzir seus conteudos codificados para valores equivalentes, porem mais legiveis. Colunas com conteudo de procedimento, motivos de saida e permanencia, municipio e idade tiveram de ser mapeadas a partir das referencias dos dicionarios, que foram encontradas em (BUSCAR ONDE TAVA A FONTE).
 
 \subsubsection{Criterios de inclusao}
 
-Criterios de inclusao
+O estudo incluiu todos os pacientes que continham registro a partir de abril de 2015 até setembro de 2023, considerando apenas os que iniciaram e finalizaram o tratamento dentro do periodo de tempo especificado. 
+
+Foram excluidos os pacientes que continham consultas registradas antes e depois das datas especificadas pois dessa forma nao seria possivel precisar na analise informacoes sobre seu tratamento, visto que seu tratamento ja havia sido iniciado e/ou nao havia sido finalizado.
+
+Após a aplicacao dos criterios de inclusao, o numero de consultas registradas foi de 89.348 para 25.862, enquanto o numero de pacientes unicos foi de 5.316 para 2.297.
 
 \subsubsection{Marcha analitica}
 
