@@ -127,7 +127,12 @@ O objetivo deste estudo é realizar uma análise comparativa dos custos de trata
 
 Para inicio da analise foi necessario coletar os dados públicos no sistema do SIASUS. Com os arquivos extraidos, deu-se inicio ao processo de tratamento dos dados, que incluiu a concatenacao das bases anualmente, renomeacao de colunas, mapeamento de dados para tornar mais facil a leitura e aplicacao dos criterios de inclusao do grupo. Foi feita tambem uma analise exploratoria para entender melhor o cenário.
 
-\includegraphics[width=1\textwidth]{fluxograma.png}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{marcha_analitica.png}
+    \caption{Marcha analítica do processo de analise dos dados}
+    \label{fig:marcha_analitica}
+    \end{figure}
 
 \subsubsection{Coleta de dados}
 A fonte primária do presente trabalho foi obtida por meio dos dados de dispensação de medicamentos do componente especializado da assistência farmaceutica que são enviados mensalmente para faturamento do programa em questão. Esses dados se tornam uma fonte útil de análise por serem públicos e possuírem dados atômicos de cada paciente a cada mês. O envio desta prestação de contas ao Ministério da Saúde é feito usando um documento chamado de APAC - Autorização de Procedimento de Alta Complexidade - que envolve o financiamento de programas de média e alta complexiade do SUS, incluindo transplantes e oncologia, bem como os medicamentos em questão. Destaca-se que a APAC gerada tem validade de 3 meses.
@@ -152,7 +157,38 @@ Após a aplicacao dos criterios de inclusao, o numero de consultas registradas f
 
 \subsubsection{Análise Exploratória}
 
-Inserir dados da análise exploratória e colocar porque tais dados podem ser interessantes
+Foi realizada um analise exploratória dos dados, afim de compreender melhor as caracteristicas da amostra. Dos pacientes unicos encontrados após aplicar os criterios de inclusao, 6.214 são menores de 18 anos, e 19.171 maiores de idade. A distribuicao dos sexos ficou em 1245 mulheres e 878 homens. É possível visualizar na Figura 2 a piramide etária dos pacientes:
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{piramide_etaria_completa.png}
+    \caption{Piramide etária dos pacientes de epilepsia analisados.}
+    \label{fig:piramide_etaria_completa}
+    \end{figure}
+
+Foram analisadas tambem particularidades sobre o tratamento utilizado. A dispensação total de material, distribuida entre os 5 medicamentos disponibilizados pelo SUS, ficou em:  
+
+\begin{itemize}
+    \item 9.315 Topiramato
+    \item 1.969 Vigabatrina
+    \item 4.709 Gabapentina
+    \item 7.878 Lamotrigina
+    \item 1.959 Levetiracetam
+\end{itemize}
+
+Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura 3) e que sairam (Figura 4) do tratamento por ano, assim como o numero de trocas de procedimento (Figura 5).
+
+
+    \includegraphics[width=1\textwidth]{pacientes_iniciaram_tratamento_por_ano.png}
+
+
+    \includegraphics[width=1\textwidth]{pacientes_sairam_tratamento_por_ano.png}
+
+
+    \includegraphics[width=1\textwidth]{pacientes_troca_tratamento_por_ano.png}
+
+
+
 
 \subsubsection{Modelagem}
 
