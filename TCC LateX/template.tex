@@ -141,7 +141,7 @@ No presente estudo foram filtradas as dispensações de medicamentos que estavam
 
 \subsubsection{Tratamento dos dados}
  
-A linguagem escolhida para trabalhar os dados foi Python, devido a sua rápida curva de aprendizado e grande variedade de bibliotecas disponiveis para manipulacao de dados e geracao de graficos. Alem do Python 3.x, foram utilizadas as bibliotecas Pandas para criacao de DataFrames para manipulacao, transformacao, analises dos dados e visualizacao, e a biblioteca Matplotlib para gerar graficos a partir dos DataFrames Pandas. 
+A linguagem escolhida para trabalhar os dados foi Python, devido a sua rápida curva de aprendizado e grande variedade de bibliotecas disponiveis para manipulacao de dados e geracao de graficos. Alem do Python 3.12, foram utilizadas as bibliotecas Pandas para criacao de DataFrames para manipulacao, transformacao, analises dos dados e visualizacao, e a biblioteca Matplotlib para gerar graficos a partir dos DataFrames Pandas. 
 
 Primeiramente, deve-se concatenar as bases, visto que os arquivos vem com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operacoes subsequentes. Foram encontrados 103.530 registros de consultas, distribuidos em 51 colunas de informacoes. Afim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que sao irrelevantes para a analise, reduzindo de 51 colunas originais para apenas 24.
 
@@ -157,7 +157,7 @@ Após a aplicacao dos criterios de inclusao, o numero de consultas registradas f
 
 \subsubsection{Análise Exploratória}
 
-Foi realizada um analise exploratória dos dados, afim de compreender melhor as caracteristicas da amostra. Dos pacientes unicos encontrados após aplicar os criterios de inclusao, 6.214 são menores de 18 anos, e 19.171 maiores de idade. A distribuicao dos sexos ficou em 1245 mulheres e 878 homens. É possível visualizar na Figura 2 a piramide etária dos pacientes:
+Foi realizada um analise exploratória dos dados, afim de compreender melhor as caracteristicas da amostra. Dos pacientes unicos encontrados após aplicar os criterios de inclusao, 607 são menores de 18 anos, e 1.529 maiores de idade. A distribuicao dos sexos ficou em 1245 mulheres e 878 homens. É possível visualizar na Figura 2 a piramide etária dos pacientes:
 
 \begin{figure}[!ht]
     \centering
@@ -166,15 +166,14 @@ Foi realizada um analise exploratória dos dados, afim de compreender melhor as 
     \label{fig:piramide_etaria_completa}
     \end{figure}
 
-Foram analisadas tambem particularidades sobre o tratamento utilizado. A dispensação total de material, distribuida entre os 5 medicamentos disponibilizados pelo SUS, ficou em:  
+Foram analisadas tambem particularidades sobre o tratamento utilizado. A dispensação total de material dos 5 medicamentos disponibilizados pelo SUS ao longo dos anos ficou distribuida da seguinte forma:  
 
-\begin{itemize}
-    \item 9.315 Topiramato
-    \item 1.969 Vigabatrina
-    \item 4.709 Gabapentina
-    \item 7.878 Lamotrigina
-    \item 1.959 Levetiracetam
-\end{itemize}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{saida_medicamentos_por_mes.png}
+    \caption{Saida de medicamentos por ano.}
+    \label{fig:saida_medicamentos_por_mes}
+    \end{figure}
 
 Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura 3) e que sairam (Figura 4) do tratamento por ano, assim como o numero de trocas de procedimento (Figura 5).
 

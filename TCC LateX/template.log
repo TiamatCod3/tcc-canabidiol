@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  30 MAY 2024 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  3 JUN 2024 19:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -707,37 +707,42 @@ File: ./images/piramide_etaria_completa.png Graphic file (type png)
 Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 164.
 (pdftex.def)             Requested size: 426.0pt x 243.43425pt.
  [6 <./images/piramide_etaria_completa.png>]
-<./images/pacientes_iniciaram_tratamento_por_ano.png, id=61, 722.7pt x 433.62pt>
+<./images/saida_medicamentos_por_mes.png, id=61, 867.24pt x 433.62pt>
+File: ./images/saida_medicamentos_por_mes.png Graphic file (type png)
+<use ./images/saida_medicamentos_por_mes.png>
+Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 173.
+(pdftex.def)             Requested size: 426.0pt x 212.99835pt.
+<./images/pacientes_iniciaram_tratamento_por_ano.png, id=62, 722.7pt x 433.62pt>
 File: ./images/pacientes_iniciaram_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_iniciaram_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 182.
+Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 181.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
 
-Overfull \hbox (35.24963pt too wide) in paragraph at lines 182--183
+Overfull \hbox (35.24963pt too wide) in paragraph at lines 181--182
 [][] 
  []
 
-<./images/pacientes_sairam_tratamento_por_ano.png, id=62, 722.7pt x 433.62pt>
+<./images/pacientes_sairam_tratamento_por_ano.png, id=63, 722.7pt x 433.62pt>
 File: ./images/pacientes_sairam_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_sairam_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 185.
+Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 184.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
 
-Overfull \hbox (35.24963pt too wide) in paragraph at lines 185--186
+Overfull \hbox (35.24963pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./images/pacientes_iniciaram_tratamento_por_ano.png>]
-<./images/pacientes_troca_tratamento_por_ano.png, id=70, 722.7pt x 433.62pt>
+ [7 <./images/saida_medicamentos_por_mes.png> <./images/pacientes_iniciaram_tratamento_por_ano.png>]
+<./images/pacientes_troca_tratamento_por_ano.png, id=72, 722.7pt x 433.62pt>
 File: ./images/pacientes_troca_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_troca_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 188.
+Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 187.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
 
-Overfull \hbox (35.24963pt too wide) in paragraph at lines 188--189
+Overfull \hbox (35.24963pt too wide) in paragraph at lines 187--188
 [][] 
  []
 
@@ -745,10 +750,10 @@ Overfull \hbox (35.24963pt too wide) in paragraph at lines 188--189
 Underfull \vbox (badness 2237) has occurred while \output is active []
 
  [8 <./images/pacientes_sairam_tratamento_por_ano.png> <./images/pacientes_troca_tratamento_por_ano.png>] [9]
-<./images/Imagem1.png, id=99, 697.8572pt x 398.99063pt>
+<./images/Imagem1.png, id=101, 697.8572pt x 398.99063pt>
 File: ./images/Imagem1.png Graphic file (type png)
 <use ./images/Imagem1.png>
-Package pdftex.def Info: ./images/Imagem1.png  used on input line 242.
+Package pdftex.def Info: ./images/Imagem1.png  used on input line 241.
 (pdftex.def)             Requested size: 426.0pt x 243.56049pt.
  [10 <./images/Imagem1.png>] [11] (template.bbl
 bibitemlist
@@ -766,17 +771,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15378 strings out of 474486
- 242813 string characters out of 5753541
+ 15383 strings out of 474486
+ 243131 string characters out of 5753541
  1940542 words of memory out of 5000000
- 37408 multiletter control sequences out of 15000+600000
- 563970 words of font info for 55 fonts, out of 8000000 for 9000
+ 37413 multiletter control sequences out of 15000+600000
+ 563633 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,875b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Bruno Trabalho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on template.pdf (17 pages, 962927 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on template.pdf (17 pages, 1141957 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
