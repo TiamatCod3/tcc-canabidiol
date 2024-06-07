@@ -131,12 +131,13 @@ Para inicio da analise foi necessario coletar os dados públicos no sistema do S
     \centering
     \includegraphics[width=1\textwidth]{marcha_analitica.png}
     \caption{Marcha analítica do processo de analise dos dados}
-    \label{fig:marcha_analitica}
-    \end{figure}
+\end{figure}
 
 \subsubsection{Coleta de dados}
-A fonte primária do presente trabalho foi obtida por meio dos dados de dispensação de medicamentos do componente especializado da assistência farmaceutica que são enviados mensalmente para faturamento do programa em questão. Esses dados se tornam uma fonte útil de análise por serem públicos e possuírem dados atômicos de cada paciente a cada mês. O envio desta prestação de contas ao Ministério da Saúde é feito usando um documento chamado de APAC - Autorização de Procedimento de Alta Complexidade - que envolve o financiamento de programas de média e alta complexiade do SUS, incluindo transplantes e oncologia, bem como os medicamentos em questão. Destaca-se que a APAC gerada tem validade de 3 meses.
-Os registros das APAC geradas a cada mês pelo sistema SIASUS foram utilizadas e extraídas do sítio apropriado(fonte) no formato DBC. Este é um formato compactado do arquivo do tipo DBF, originalmente utilizado pelo DBase. Estes arquivos podem ser tabulados utilizando o programa TabWin 4.1 que permite gerar consultas e extrair os dados com filtros de acordo com as condições necessárias e critérios de inclusão do estudo. Para realização das tabulações, também é necessário baixar os arquivos de extensão DEF, de definição, que permite modelar esta extração com os critérios necessários par ao estudo. 
+A fonte primária do presente trabalho foi obtida por meio dos dados de dispensação de medicamentos do componente especializado da assistência farmaceutica que são enviados mensalmente para faturamento do programa em questão. Esses dados se tornam uma fonte útil de análise por serem públicos e possuírem dados atômicos de cada paciente a cada mês. O envio desta prestação de contas ao Ministério da Saúde é feito usando um documento chamado de APAC (Autorização de Procedimento de Alta Complexidade) que envolve o financiamento de programas de média e alta complexiade do SUS, incluindo transplantes e oncologia, bem como os medicamentos em questão. Destaca-se que a APAC gerada tem validade de 3 meses.
+
+Os registros das APAC geradas a cada mês pelo sistema SIASUS foram utilizadas e extraídas do sítio apropriado (fonte) no formato DBC. Este é um formato compactado do arquivo do tipo DBF, originalmente utilizado pelo DBase. Estes arquivos podem ser tabulados utilizando o programa TabWin 4.1 que permite gerar consultas e extrair os dados com filtros de acordo com as condições necessárias e critérios de inclusão do estudo. Para realização das tabulações, também é necessário baixar os arquivos de extensão DEF, de definição, que permite modelar esta extração com os critérios necessários par ao estudo.
+
 No presente estudo foram filtradas as dispensações de medicamentos que estavam associadas ao CID G40.0 a G40.8 relativos à epilepsia e regulados pelo Protocolo Clínico e Diretrizes Terapêuticas da doença em questão. Apesar do arquivo de APAC ser elaborado mensalmente, as extrações foram agregadas anualmente em formato csv para posterior ingestão no sistema de análise.
 
 \subsubsection{Tratamento dos dados}
@@ -157,37 +158,55 @@ Após a aplicacao dos criterios de inclusao, o numero de consultas registradas f
 
 \subsubsection{Análise Exploratória}
 
-Foi realizada um analise exploratória dos dados, afim de compreender melhor as caracteristicas da amostra. Dos pacientes unicos encontrados após aplicar os criterios de inclusao, 607 são menores de 18 anos, e 1.529 maiores de idade. A distribuicao dos sexos ficou em 1245 mulheres e 878 homens. É possível visualizar na Figura 2 a piramide etária dos pacientes:
+Foi realizada um analise exploratória dos dados, afim de compreender melhor as caracteristicas da amostra. Dos pacientes unicos encontrados após aplicar os criterios de inclusao, 607 são menores de 18 anos, e 1.529 maiores de idade. A distribuicao dos sexos ficou em 1245 mulheres e 878 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a piramide etária dos pacientes:
 
-\begin{figure}[!ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{piramide_etaria_completa.png}
     \caption{Piramide etária dos pacientes de epilepsia analisados.}
     \label{fig:piramide_etaria_completa}
-    \end{figure}
+\end{figure}
 
 Foram analisadas tambem particularidades sobre o tratamento utilizado. A dispensação total de material dos 5 medicamentos disponibilizados pelo SUS ao longo dos anos ficou distribuida da seguinte forma:  
 
-\begin{figure}[!ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{saida_medicamentos_por_mes.png}
     \caption{Saida de medicamentos por ano.}
     \label{fig:saida_medicamentos_por_mes}
-    \end{figure}
+\end{figure}
 
-Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura 3) e que sairam (Figura 4) do tratamento por ano, assim como o numero de trocas de procedimento (Figura 5).
+Alem disso, foram feitas piramides etarias com a idade da primeira retirada de cada dispensacao de cada paciente, para que fosse analizado a faixa etaria mais comum a cada dispensacao. O resultado é possivel ver na Figura~\ref{fig:grid_piramides_etarias_medicamento} a seguir:
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{grid_piramides_etarias_medicamento.png}
+    \caption{Piramides etarias por dispensacao.}
+    \label{fig:grid_piramides_etarias_medicamento}
+\end{figure}
 
+Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura~\ref{fig:pacientes_iniciaram_tratamento_por_ano}) e que sairam (Figura\ref{pacientes_sairam_tratamento_por_ano}) do tratamento por ano, assim como o numero de trocas de procedimento (Figura\ref{pacientes_troca_tratamento_por_ano}).
+
+\begin{figure}[!ht]
+    \centering
     \includegraphics[width=1\textwidth]{pacientes_iniciaram_tratamento_por_ano.png}
+    \caption{Pacientes que inciaram o tratamento por ano.}
+    \label{fig:pacientes_iniciaram_tratamento_por_ano}
+\end{figure}
 
-
+\begin{figure}[!ht]
+    \centering
     \includegraphics[width=1\textwidth]{pacientes_sairam_tratamento_por_ano.png}
+    \caption{Pacientes que sairam do tratamento por ano.}
+    \label{fig:pacientes_sairam_tratamento_por_ano}
+\end{figure}
 
-
+\begin{figure}[!ht]
+    \centering
     \includegraphics[width=1\textwidth]{pacientes_troca_tratamento_por_ano.png}
-
-
-
+    \caption{Pacientes que trocaram de tratamento por ano.}
+    \label{fig:pacientes_troca_tratamento_por_ano}
+\end{figure}
 
 \subsubsection{Modelagem}
 
