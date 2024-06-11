@@ -146,7 +146,7 @@ No presente estudo foram filtradas as dispensações de medicamentos que estavam
  
 A linguagem escolhida para trabalhar os dados foi Python, devido à sua rápida curva de aprendizado e grande variedade de bibliotecas disponíveis para trabalhar e visualizar os dados. Além do Python 3.12, foram utilizadas as bibliotecas Pandas, para criação de DataFrames, manipulação, transformação, análises dos dados e melhor visualização, e a biblioteca Matplotlib, para gerar gráficos a partir dos DataFrames.
 
-Primeiramente, deve-se concatenar as bases, visto que os arquivos vêm com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operações subsequentes. Foram encontrados 103.530 registros de consultas, distribuídos em 51 colunas de informações. A fim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que são irrelevantes para a análise, reduzindo de 51 colunas originais para apenas 24.
+Primeiramente, deve-se concatenar as bases, visto que os arquivos vêm com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operações subsequentes. Foram encontrados 103.530 registros de dispensações, distribuídos em 51 colunas de informações. A fim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que são irrelevantes para a análise, reduzindo de 51 colunas originais para apenas 24.
 
 Em seguida, foram criados dicionários de chave e valor, visando tanto renomear colunas quanto traduzir seus conteúdos codificados para valores equivalentes, porém mais legíveis. Colunas com conteúdo de procedimento, motivos de saída e permanência, município e idade tiveram de ser mapeadas a partir das referências dos dicionários. (INCLUIR FONTE? BUSCAR ONDE TAVA A FONTE?).
 
@@ -162,7 +162,7 @@ Após a aplicação dos critérios de inclusão, o número de consultas registra
 
 Foi realizada uma análise exploratória dos dados a fim de compreender melhor as características da amostra. Dos pacientes únicos encontrados após aplicar os critérios de inclusão, 607 são menores de 18 anos e 1.529 são maiores de idade. A distribuição dos sexos ficou em 1.245 mulheres e 878 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a pirâmide etária dos pacientes:
 
-\begin{figure}[!ht]
+\begin{figure}[ht!]
     \centering
     \includegraphics[width=1\textwidth]{piramide_etaria_completa.png}
     \caption{Piramide etária dos pacientes de epilepsia analisados.}
