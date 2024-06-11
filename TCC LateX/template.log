@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  7 JUN 2024 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  11 JUN 2024 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -698,54 +698,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <./images/marcha_analitica.png, id=37, 1860.9525pt x 2178.1375pt>
 File: ./images/marcha_analitica.png Graphic file (type png)
 <use ./images/marcha_analitica.png>
-Package pdftex.def Info: ./images/marcha_analitica.png  used on input line 132.
+Package pdftex.def Info: ./images/marcha_analitica.png  used on input line 133.
 (pdftex.def)             Requested size: 426.0pt x 498.60136pt.
  [4 <./images/marcha_analitica.png>] [5]
 <./images/piramide_etaria_completa.png, id=53, 1011.78pt x 578.16pt>
 File: ./images/piramide_etaria_completa.png Graphic file (type png)
 <use ./images/piramide_etaria_completa.png>
-Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 165.
+Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 167.
 (pdftex.def)             Requested size: 426.0pt x 243.43425pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <./images/saida_medicamentos_por_mes.png, id=54, 867.24pt x 433.62pt>
 File: ./images/saida_medicamentos_por_mes.png Graphic file (type png)
 <use ./images/saida_medicamentos_por_mes.png>
-Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 174.
+Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 176.
 (pdftex.def)             Requested size: 426.0pt x 212.99835pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <./images/grid_piramides_etarias_medicamento.png, id=56, 1445.4pt x 722.7pt>
 File: ./images/grid_piramides_etarias_medicamento.png Graphic file (type png)
 <use ./images/grid_piramides_etarias_medicamento.png>
-Package pdftex.def Info: ./images/grid_piramides_etarias_medicamento.png  used on input line 183.
+Package pdftex.def Info: ./images/grid_piramides_etarias_medicamento.png  used on input line 185.
 (pdftex.def)             Requested size: 426.0pt x 212.99615pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Warning: Reference `pacientes_sairam_tratamento_por_ano' on page 6 undefined on input line 190.
 
 
-LaTeX Warning: Reference `pacientes_sairam_tratamento_por_ano' on page 6 undefined on input line 188.
-
-
-LaTeX Warning: Reference `pacientes_troca_tratamento_por_ano' on page 6 undefined on input line 188.
+LaTeX Warning: Reference `pacientes_troca_tratamento_por_ano' on page 6 undefined on input line 190.
 
 <./images/pacientes_iniciaram_tratamento_por_ano.png, id=58, 722.7pt x 433.62pt>
 File: ./images/pacientes_iniciaram_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_iniciaram_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 192.
+Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 194.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
 <./images/pacientes_sairam_tratamento_por_ano.png, id=59, 722.7pt x 433.62pt>
 File: ./images/pacientes_sairam_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_sairam_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 199.
+Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 201.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
 <./images/pacientes_troca_tratamento_por_ano.png, id=60, 722.7pt x 433.62pt>
 File: ./images/pacientes_troca_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_troca_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 206.
+Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 208.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
 [6]
 Underfull \vbox (badness 1281) has occurred while \output is active []
@@ -757,7 +748,7 @@ Underfull \vbox (badness 1721) has occurred while \output is active []
 <./images/Imagem1.png, id=107, 697.8572pt x 398.99063pt>
 File: ./images/Imagem1.png Graphic file (type png)
 <use ./images/Imagem1.png>
-Package pdftex.def Info: ./images/Imagem1.png  used on input line 260.
+Package pdftex.def Info: ./images/Imagem1.png  used on input line 262.
 (pdftex.def)             Requested size: 426.0pt x 243.56049pt.
  [10] [11 <./images/Imagem1.png>] (template.bbl
 bibitemlist
@@ -787,7 +778,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,875b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on template.pdf (17 pages, 1193273 bytes).
+Output written on template.pdf (17 pages, 1207278 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)

@@ -50,7 +50,7 @@
 \begin{center}
 {\Large Título em português\footnote{Trabalho de conclusão de curso apresentado ao curso de Bacharelado em Sistemas de Informação da Universidade Federal Fluminense como requisito parcial para conclusão do curso.}
 
-\textit{Comparativo de custo de tratamento para epilepsia no estado do Rio de Janeiro}\\}
+\textit{Impacto orçamentário da inserção de canabidiol no tratamento para epilepsia no estado do Rio de Janeiro}\\}
 \end{center}
 \vspace{.2cm} 
 
@@ -102,7 +102,7 @@ Nome completo do coorientador\footnote{Coorientador - vínculo institucional do 
 \subsection{Epilepsia no SUS e Canabidiol}
 A epilepsia se refere a um distúrbio da atividade cerebral caracterizado pela ocorrência periódica e espontânea de atividade elétrica altamente sincronizada, acompanhada de manifestações comportamentais. Dessa forma, não é uma única doença ou síndrome, e sim um grupo de distúrbios que ocorrem a partir de funções cerebrais alteradas. (Fonte: Alterações cardiovasculares e morte súbita nas epilepsias)
 
-Essa complicação pode ocorrer motivada por diversos fatores, como febre, intoxicação, alterações vasculares ou doenças degenerativas. Atualmente, a epilepsia acomete cerca de 2\% da população brasileira, e cerca de 50 milhões de pessoas no mundo (Fonte GOV.BR (Na resolução da CONITEC diz 65M)). No Brasil é possível receber atendimento integral e gratuito pelo Sistema Único de Saúde (SUS), tendo 29 estabelecimentos habilitados para tratamento de alta complexidade em neurologia/neurocirurgia para abranger desde consultas, exames, diagnósticos, tratamento e fornecimento de medicamentos.
+Essa complicação pode ocorrer motivada por diversos fatores, como febre, intoxicação, alterações vasculares ou doenças degenerativas. Atualmente, a epilepsia acomete cerca de 2\% da população brasileira, e cerca de 65 milhões de pessoas no mundo. No Brasil é possível receber atendimento integral e gratuito pelo Sistema Único de Saúde (SUS), tendo 29 estabelecimentos habilitados para tratamento de alta complexidade em neurologia/neurocirurgia para abranger desde consultas, exames, diagnósticos, tratamento e fornecimento de medicamentos.
 
 O uso de medicamentos para ajudar a controlar as crises faz com que os pacientes que sofrem dessa doença possam viver sem grandes limitações. Porém, cerca de 30\% desses pacientes ainda apresentam casos de crises, sendo considerados refratários ao tratamento. No SUS, segundo o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) para epilepsia, publicado em 2018, são disponibilizados cerca de 13 medicamentos distintos para o tratamento, que deve ser iniciado com a prescrição de apenas um, podendo, em caso de falha, ser alterado ou feita a combinação de dois desses medicamentos antiepilépticos. (Fonte: Resolução CONITEC).
 
@@ -111,6 +111,7 @@ O canabidiol (CBD), um composto derivado da planta \textit{Cannabis sativa}, sur
 Após séculos de uso tradicional e diversos estudos científicos, o CBD foi finalmente isolado na década de 40. Em 1963, a síntese do CBD foi concluída. Já o THC, canabinoide responsável pelos efeitos psicoativos e analgésicos, foi isolado em 1964 e sintetizado apenas em 1971. (Fonte: Cannabinoids and Epilepsy e Cannabis: 12.000 anos de experiências e preconceitos)
 
 \subsection{Ciência de Dados}
+
 Desde os primórdios da humanidade, registros foram criados por meio de gravuras e pinturas nas paredes e em objetos cotidianos. Com a invenção da escrita, a produção de dados e registros aumentou significativamente, tornando mais fácil difundir esses conhecimentos. No entanto, o verdadeiro salto ocorreu com a revolução digital e o surgimento dos computadores. Esse avanço exponencial permitiu a facilidade de armazenar uma quantidade avassaladora de informações e, a partir do processamento dessas informações, revelou o potencial dos dados para gerar conhecimento, identificar padrões, tomar decisões informadas e até fazer previsões. Como resultado, surgiu uma nova área de estudo: a ciência de dados.
 
 A ciência de dados tem como objetivo criar valor a partir de processos de busca e conhecimento sobre os dados. Porém, por si só a ciência de dados não traz esse valor, é necessário um trabalho de análise desses dados para que se possa extrair o máximo deles o possível, e tornar a informação em algo objetivo que se possa ser utilizado.
@@ -125,7 +126,7 @@ O objetivo deste estudo é realizar uma análise comparativa dos custos de trata
 
 \subsection{Metodologia}
 
-Para inicio da analise foi necessario coletar os dados públicos no sistema do SIASUS. Com os arquivos extraidos, deu-se inicio ao processo de tratamento dos dados, que incluiu a concatenacao das bases anualmente, renomeacao de colunas, mapeamento de dados para tornar mais facil a leitura e aplicacao dos criterios de inclusao do grupo. Foi feita tambem uma analise exploratoria para entender melhor o cenário.
+Para início da análise, foi necessário coletar os dados públicos no sistema do SIASUS. Com os arquivos extraídos, iniciou-se o processo de tratamento dos dados, que incluiu a concatenação das bases anualmente, renomeação de colunas, mapeamento de dados para tornar mais fácil a leitura e aplicação dos critérios de inclusão do grupo. Também foi feita uma análise exploratória para entender melhor o cenário.
 
 \begin{figure}[!ht]
     \centering
@@ -134,6 +135,7 @@ Para inicio da analise foi necessario coletar os dados públicos no sistema do S
 \end{figure}
 
 \subsubsection{Coleta de dados}
+
 A fonte primária do presente trabalho foi obtida por meio dos dados de dispensação de medicamentos do componente especializado da assistência farmaceutica que são enviados mensalmente para faturamento do programa em questão. Esses dados se tornam uma fonte útil de análise por serem públicos e possuírem dados atômicos de cada paciente a cada mês. O envio desta prestação de contas ao Ministério da Saúde é feito usando um documento chamado de APAC (Autorização de Procedimento de Alta Complexidade) que envolve o financiamento de programas de média e alta complexiade do SUS, incluindo transplantes e oncologia, bem como os medicamentos em questão. Destaca-se que a APAC gerada tem validade de 3 meses.
 
 Os registros das APAC geradas a cada mês pelo sistema SIASUS foram utilizadas e extraídas do sítio apropriado (fonte) no formato DBC. Este é um formato compactado do arquivo do tipo DBF, originalmente utilizado pelo DBase. Estes arquivos podem ser tabulados utilizando o programa TabWin 4.1 que permite gerar consultas e extrair os dados com filtros de acordo com as condições necessárias e critérios de inclusão do estudo. Para realização das tabulações, também é necessário baixar os arquivos de extensão DEF, de definição, que permite modelar esta extração com os critérios necessários par ao estudo.
@@ -142,46 +144,46 @@ No presente estudo foram filtradas as dispensações de medicamentos que estavam
 
 \subsubsection{Tratamento dos dados}
  
-A linguagem escolhida para trabalhar os dados foi Python, devido a sua rápida curva de aprendizado e grande variedade de bibliotecas disponiveis para manipulacao de dados e geracao de graficos. Alem do Python 3.12, foram utilizadas as bibliotecas Pandas para criacao de DataFrames para manipulacao, transformacao, analises dos dados e visualizacao, e a biblioteca Matplotlib para gerar graficos a partir dos DataFrames Pandas. 
+A linguagem escolhida para trabalhar os dados foi Python, devido à sua rápida curva de aprendizado e grande variedade de bibliotecas disponíveis para trabalhar e visualizar os dados. Além do Python 3.12, foram utilizadas as bibliotecas Pandas, para criação de DataFrames, manipulação, transformação, análises dos dados e melhor visualização, e a biblioteca Matplotlib, para gerar gráficos a partir dos DataFrames.
 
-Primeiramente, deve-se concatenar as bases, visto que os arquivos vem com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operacoes subsequentes. Foram encontrados 103.530 registros de consultas, distribuidos em 51 colunas de informacoes. Afim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que sao irrelevantes para a analise, reduzindo de 51 colunas originais para apenas 24.
+Primeiramente, deve-se concatenar as bases, visto que os arquivos vêm com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operações subsequentes. Foram encontrados 103.530 registros de consultas, distribuídos em 51 colunas de informações. A fim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que são irrelevantes para a análise, reduzindo de 51 colunas originais para apenas 24.
 
-Em seguida, foram criados dicionarios de chave e valor, visando tanto renomear colunas quanto traduzir seus conteudos codificados para valores equivalentes, porem mais legiveis. Colunas com conteudo de procedimento, motivos de saida e permanencia, municipio e idade tiveram de ser mapeadas a partir das referencias dos dicionarios, que foram encontradas em (BUSCAR ONDE TAVA A FONTE).
+Em seguida, foram criados dicionários de chave e valor, visando tanto renomear colunas quanto traduzir seus conteúdos codificados para valores equivalentes, porém mais legíveis. Colunas com conteúdo de procedimento, motivos de saída e permanência, município e idade tiveram de ser mapeadas a partir das referências dos dicionários. (INCLUIR FONTE? BUSCAR ONDE TAVA A FONTE?).
 
 \subsubsection{Criterios de inclusao}
 
-O estudo incluiu todos os pacientes que continham registro a partir de abril de 2014 até setembro de 2023, considerando apenas os que iniciaram e finalizaram o tratamento dentro do periodo de tempo especificado. 
+O estudo incluiu todos os pacientes que continham registros a partir de abril de 2014 até setembro de 2023, considerando apenas os que iniciaram e finalizaram o tratamento dentro do período especificado.
 
-Foram excluidos os pacientes que continham dispensações registradas antes e depois das datas especificadas, pois dessa forma nao seria possivel precisar na analise informacoes sobre seu tratamento. Foram exluidos tambem os pacientes que possuiam menos de 3 dispensações no periodo analisado. 
+Foram excluídos os pacientes que continham dispensações registradas antes e depois das datas especificadas, pois dessa forma não seria possível precisar na análise informações sobre seu tratamento. Foram excluídos também os pacientes que possuíam menos de 3 dispensações no período analisado.
 
-Após a aplicacao dos criterios de inclusao, o numero de consultas registradas foi de 103.530 para 25.830, enquanto o numero de pacientes unicos foi de 5.509 para 2.123.
+Após a aplicação dos critérios de inclusão, o número de consultas registradas reduziu de 103.530 para 25.830, enquanto o número de pacientes únicos diminuiu de 5.509 para 2.123.
 
 \subsubsection{Análise Exploratória}
 
-Foi realizada um analise exploratória dos dados, afim de compreender melhor as caracteristicas da amostra. Dos pacientes unicos encontrados após aplicar os criterios de inclusao, 607 são menores de 18 anos, e 1.529 maiores de idade. A distribuicao dos sexos ficou em 1245 mulheres e 878 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a piramide etária dos pacientes:
+Foi realizada uma análise exploratória dos dados a fim de compreender melhor as características da amostra. Dos pacientes únicos encontrados após aplicar os critérios de inclusão, 607 são menores de 18 anos e 1.529 são maiores de idade. A distribuição dos sexos ficou em 1.245 mulheres e 878 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a pirâmide etária dos pacientes:
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{piramide_etaria_completa.png}
     \caption{Piramide etária dos pacientes de epilepsia analisados.}
     \label{fig:piramide_etaria_completa}
 \end{figure}
 
-Foram analisadas tambem particularidades sobre o tratamento utilizado. A dispensação total de material dos 5 medicamentos disponibilizados pelo SUS ao longo dos anos ficou distribuida da seguinte forma:  
+Foram analisadas também particularidades sobre o tratamento utilizado. A dispensação total de material ficou entre cinco dos medicamentos disponibilizados pelo SUS, que ao longo dos anos distribuiu-se da seguinte forma:
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{saida_medicamentos_por_mes.png}
-    \caption{Saida de medicamentos por ano.}
+    \caption{Saída de medicamentos por ano.}
     \label{fig:saida_medicamentos_por_mes}
 \end{figure}
 
-Alem disso, foram feitas piramides etarias com a idade da primeira retirada de cada dispensacao de cada paciente, para que fosse analizado a faixa etaria mais comum a cada dispensacao. O resultado é possivel ver na Figura~\ref{fig:grid_piramides_etarias_medicamento} a seguir:
+Além disso, foram feitas pirâmides etárias com a idade da primeira retirada de cada dispensação de cada paciente, para que fosse analisada a faixa etária mais comum a cada dispensação. O resultado pode ser visto na Figura~\ref{fig:grid_piramides_etarias_medicamento} a seguir:
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{grid_piramides_etarias_medicamento.png}
-    \caption{Piramides etarias por dispensacao.}
+    \caption{Pirâmides etárias por dispensação.}
     \label{fig:grid_piramides_etarias_medicamento}
 \end{figure}
 
