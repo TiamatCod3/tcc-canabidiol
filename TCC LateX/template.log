@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  11 JUN 2024 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  13 JUN 2024 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,68 +691,96 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 58.
  [1
 
-{C:/Users/Bruno Trabalho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-<./images/marcha_analitica.png, id=37, 1860.9525pt x 2178.1375pt>
+{C:/Users/Bruno Trabalho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
+<./images/marcha_analitica.png, id=35, 1860.9525pt x 2059.695pt>
 File: ./images/marcha_analitica.png Graphic file (type png)
 <use ./images/marcha_analitica.png>
-Package pdftex.def Info: ./images/marcha_analitica.png  used on input line 133.
-(pdftex.def)             Requested size: 426.0pt x 498.60136pt.
- [4 <./images/marcha_analitica.png>] [5]
-<./images/piramide_etaria_completa.png, id=53, 1011.78pt x 578.16pt>
+Package pdftex.def Info: ./images/marcha_analitica.png  used on input line 140.
+(pdftex.def)             Requested size: 426.0pt x 471.48848pt.
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./images/marcha_analitica.png>]
+<./images/piramide_etaria_completa.png, id=51, 1011.78pt x 578.16pt>
 File: ./images/piramide_etaria_completa.png Graphic file (type png)
 <use ./images/piramide_etaria_completa.png>
-Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 167.
+Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 172.
 (pdftex.def)             Requested size: 426.0pt x 243.43425pt.
-<./images/saida_medicamentos_por_mes.png, id=54, 867.24pt x 433.62pt>
+
+c:/Users/Bruno Trabalho/Desktop/TCC/Git/tcc-canabidiol/TCC LateX/template.tex:176: Undefined control sequence.
+l.176 \n
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Bruno Trabalho/Desktop/TCC/Git/tcc-canabidiol/TCC LateX/template.tex:177: Undefined control sequence.
+l.177 \n
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Bruno Trabalho/Desktop/TCC/Git/tcc-canabidiol/TCC LateX/template.tex:178: Undefined control sequence.
+l.178 \n
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Bruno Trabalho/Desktop/TCC/Git/tcc-canabidiol/TCC LateX/template.tex:179: Undefined control sequence.
+l.179 \n
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./images/saida_medicamentos_por_mes.png, id=52, 867.24pt x 433.62pt>
 File: ./images/saida_medicamentos_por_mes.png Graphic file (type png)
 <use ./images/saida_medicamentos_por_mes.png>
-Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 176.
+Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 184.
 (pdftex.def)             Requested size: 426.0pt x 212.99835pt.
-<./images/grid_piramides_etarias_medicamento.png, id=56, 1445.4pt x 722.7pt>
+[6]
+<./images/grid_piramides_etarias_medicamento.png, id=62, 1445.4pt x 722.7pt>
 File: ./images/grid_piramides_etarias_medicamento.png Graphic file (type png)
 <use ./images/grid_piramides_etarias_medicamento.png>
-Package pdftex.def Info: ./images/grid_piramides_etarias_medicamento.png  used on input line 185.
+Package pdftex.def Info: ./images/grid_piramides_etarias_medicamento.png  used on input line 193.
 (pdftex.def)             Requested size: 426.0pt x 212.99615pt.
-
-
-LaTeX Warning: Reference `pacientes_sairam_tratamento_por_ano' on page 6 undefined on input line 190.
-
-
-LaTeX Warning: Reference `pacientes_troca_tratamento_por_ano' on page 6 undefined on input line 190.
-
-<./images/pacientes_iniciaram_tratamento_por_ano.png, id=58, 722.7pt x 433.62pt>
+<./images/pacientes_iniciaram_tratamento_por_ano.png, id=66, 722.7pt x 433.62pt>
 File: ./images/pacientes_iniciaram_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_iniciaram_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 194.
+Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 202.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
-<./images/pacientes_sairam_tratamento_por_ano.png, id=59, 722.7pt x 433.62pt>
+<./images/pacientes_sairam_tratamento_por_ano.png, id=67, 722.7pt x 433.62pt>
 File: ./images/pacientes_sairam_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_sairam_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 201.
+Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 209.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
-<./images/pacientes_troca_tratamento_por_ano.png, id=60, 722.7pt x 433.62pt>
+<./images/pacientes_troca_tratamento_por_ano.png, id=68, 722.7pt x 433.62pt>
 File: ./images/pacientes_troca_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_troca_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 208.
+Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 216.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
-[6]
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
  [7 <./images/piramide_etaria_completa.png> <./images/saida_medicamentos_por_mes.png>] [8 <./images/grid_piramides_etarias_medicamento.png> <./images/pacientes_iniciaram_tratamento_por_ano.png>]
-Underfull \vbox (badness 1721) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./images/pacientes_sairam_tratamento_por_ano.png> <./images/pacientes_troca_tratamento_por_ano.png>]
-<./images/Imagem1.png, id=107, 697.8572pt x 398.99063pt>
+<./images/Imagem1.png, id=105, 697.8572pt x 398.99063pt>
 File: ./images/Imagem1.png Graphic file (type png)
 <use ./images/Imagem1.png>
-Package pdftex.def Info: ./images/Imagem1.png  used on input line 262.
+Package pdftex.def Info: ./images/Imagem1.png  used on input line 270.
 (pdftex.def)             Requested size: 426.0pt x 243.56049pt.
- [10] [11 <./images/Imagem1.png>] (template.bbl
+ [10] [11 <./images/Imagem1.png>] [12] (template.bbl
 bibitemlist
-) [12] (template.lof) [13] (template.lot) [14] [15] [16] [17]
+) [13] (template.lof) [14] (template.lot) [15] [16] [17] [18]
 \tf@lof=\write4
 \openout4 = `template.lof'.
 
@@ -764,23 +792,19 @@ bibitemlist
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 15401 strings out of 474486
- 244017 string characters out of 5753541
- 1940542 words of memory out of 5000000
+ 15402 strings out of 474486
+ 243965 string characters out of 5753541
+ 1939542 words of memory out of 5000000
  37427 multiletter control sequences out of 15000+600000
  563633 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,890b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on template.pdf (17 pages, 1206482 bytes).
+Output written on template.pdf (18 pages, 1163804 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -48,9 +48,9 @@
 \textual
 
 \begin{center}
-{\Large Título em português\footnote{Trabalho de conclusão de curso apresentado ao curso de Bacharelado em Sistemas de Informação da Universidade Federal Fluminense como requisito parcial para conclusão do curso.}
+{\Large Impacto orçamentário da inserção de canabidiol no tratamento para epilepsia no estado do Rio de Janeiro\footnote{Trabalho de conclusão de curso apresentado ao curso de Bacharelado em Sistemas de Informação da Universidade Federal Fluminense como requisito parcial para conclusão do curso.}
 
-\textit{Impacto orçamentário da inserção de canabidiol no tratamento para epilepsia no estado do Rio de Janeiro}\\}
+\textit{Budgetary impact of the insertion of cannabidiol in the treatment of epilepsy in the state of Rio de Janeiro}\\}
 \end{center}
 \vspace{.2cm} 
 
@@ -61,7 +61,6 @@ Tiago Rodrigues de Matos\footnote{Graduando do Curso de Sistemas de Informação
 
 Daniel Cardoso Moraes de Oliveira\footnote{Orientador - Instituto de Computação - UFF, danielcmo@ic.uff.br.} 
 
-Nome completo do coorientador\footnote{Coorientador - vínculo institucional do coorientador, e-mail do coorientador.}
 \end{flushright}
 
 \vspace{\onelineskip}
@@ -72,12 +71,12 @@ Nome completo do coorientador\footnote{Coorientador - vínculo institucional do 
 
 \vspace{-.3cm}
 
-\noindent Este estudo aprofundado investiga os custos do tratamento da epilepsia no Rio de Janeiro entre 2014 e 2023, focando no sistema público de saúde (SIASUS). O objetivo principal é comparar os custos do tratamento convencional com medicamentos antiepilépticos (MAEs) e o tratamento com canabidiol (CBD) em diferentes graus da doença..
+\noindent Este estudo aprofundado investiga os custos do tratamento da epilepsia no Rio de Janeiro entre 2014 e 2023, focando no sistema público de saúde (SIASUS). O objetivo principal é comparar os custos do tratamento convencional com medicamentos antiepilépticos (MAEs) e o tratamento com canabidiol (CBD) em diferentes graus da doença.
 
 \vspace{.4cm}
  
 \noindent
-\textbf{Palavras-chaves}: Epilepsia, Tratamento convencional, Canabidiol, Custos diretos, Custos indiretos, Graus da doença, Transições de estado, SIASUS, Rio de Janeiro.. 
+\textbf{Palavras-chaves}: Epilepsia, Tratamento convencional, Canabidiol, Custos diretos, Custos indiretos, Graus da doença, Transições de estado, SIASUS, Rio de Janeiro.
  
 \vspace{\onelineskip}
 
@@ -98,6 +97,14 @@ Nome completo do coorientador\footnote{Coorientador - vínculo institucional do 
 \noindent \textbf{Aprovado em:} dd/mm/aaaa.~~~\textbf{Versão Final em:} dd/mm/aaaa
 
 \section{Introdução}
+
+A epilepsia é um distúrbio neurológico caracterizado por crises espontâneas devido a atividade elétrica anormal no cérebro. Este grupo de distúrbios pode ser desencadeado por diversos fatores, e atualmente no Brasil, cerca de 3 milhões (Fonte: Secretaria de Saude do DF) de pessoas sofrem com crises epiléticas. 
+
+O Sistema Único de Saúde (SUS) oferece atendimento integral e gratuito para exames, diagnósticos e tratamentos, além da dispensação de medicamentos. Embora o tratamento medicamentoso ajude muitos pacientes a controlar as crises, cerca de um em cada tres são refratários aos tratamentos convencionais. O canabidiol (CBD), um composto derivado da planta \textit{Cannabis sativa}, tem emergido como uma alternativa para casos refratários e para menores de idade, potencialmente melhorando a qualidade de vida dos pacientes.
+
+A partir da coleta e tratamento de dados públicos, o objetivo deste estudo é realizar uma análise do impacto orçamentário da inserção do canabidiol no tratamento da epilepsia no estado do Rio de Janeiro, considerando os custos atuais e as projeções futuras.
+
+\section{Referencial Teórico}
 
 \subsection{Epilepsia no SUS e Canabidiol}
 A epilepsia se refere a um distúrbio da atividade cerebral caracterizado pela ocorrência periódica e espontânea de atividade elétrica altamente sincronizada, acompanhada de manifestações comportamentais. Dessa forma, não é uma única doença ou síndrome, e sim um grupo de distúrbios que ocorrem a partir de funções cerebrais alteradas. (Fonte: Alterações cardiovasculares e morte súbita nas epilepsias)
@@ -152,15 +159,13 @@ Em seguida, foram criados dicionários de chave e valor, visando tanto renomear 
 
 \subsubsection{Criterios de inclusao}
 
-O estudo incluiu todos os pacientes que continham registros a partir de abril de 2014 até setembro de 2023, considerando apenas os que iniciaram e finalizaram o tratamento dentro do período especificado.
+O estudo incluiu todos os pacientes que continham registros entre 2014 e 2023. Foram excluídos os pacientes que possuíam menos de 3 dispensações no período analisado, pois entendeu-se que, devido ao tempo da APAC, tais pacientes não poderiam ser considerados como estando em tratamento.
 
-Foram excluídos os pacientes que continham dispensações registradas antes e depois das datas especificadas, pois dessa forma não seria possível precisar na análise informações sobre seu tratamento. Foram excluídos também os pacientes que possuíam menos de 3 dispensações no período analisado.
-
-Após a aplicação dos critérios de inclusão, o número de consultas registradas reduziu de 103.530 para 25.830, enquanto o número de pacientes únicos diminuiu de 5.509 para 2.123.
+Após a aplicação dos critérios de inclusão, o número de consultas registradas reduziu de 103.530 para 101.104, enquanto o número de pacientes únicos diminuiu de 5.509 para 5.312.
 
 \subsubsection{Análise Exploratória}
 
-Foi realizada uma análise exploratória dos dados a fim de compreender melhor as características da amostra. Dos pacientes únicos encontrados após aplicar os critérios de inclusão, 607 são menores de 18 anos e 1.529 são maiores de idade. A distribuição dos sexos ficou em 1.245 mulheres e 878 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a pirâmide etária dos pacientes:
+Foi realizada uma análise exploratória dos dados a fim de compreender melhor as características da amostra. Dos pacientes únicos encontrados após aplicar os critérios de inclusão, 1.601 são menores de 18 anos e 3.837 são maiores de idade. A distribuição dos sexos ficou em 2.930 mulheres e 2.382 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a pirâmide etária dos pacientes:
 
 \begin{figure}[ht!]
     \centering
@@ -187,7 +192,7 @@ Além disso, foram feitas pirâmides etárias com a idade da primeira retirada d
     \label{fig:grid_piramides_etarias_medicamento}
 \end{figure}
 
-Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura~\ref{fig:pacientes_iniciaram_tratamento_por_ano}) e que sairam (Figura\ref{pacientes_sairam_tratamento_por_ano}) do tratamento por ano, assim como o numero de trocas de procedimento (Figura\ref{pacientes_troca_tratamento_por_ano}).
+Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura~\ref{fig:pacientes_iniciaram_tratamento_por_ano}) e que sairam (Figura~\ref{fig:pacientes_sairam_tratamento_por_ano}) do tratamento por ano, assim como o numero de trocas de procedimento (Figura~\ref{fig:pacientes_troca_tratamento_por_ano}).
 
 \begin{figure}[!ht]
     \centering
