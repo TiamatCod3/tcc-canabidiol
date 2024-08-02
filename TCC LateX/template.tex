@@ -71,12 +71,12 @@ Daniel Cardoso Moraes de Oliveira\footnote{Orientador - Instituto de Computaçã
 
 \vspace{-.3cm}
 
-\noindent Este estudo investiga os custos do tratamento da epilepsia no Rio de Janeiro entre 2014 e 2023, focando no sistema público de saúde (SIASUS). O objetivo principal é comparar os custos do tratamento convencional com medicamentos antiepilépticos (MAEs) e o tratamento com canabidiol (CBD) em diferentes graus da doença.
+\noindent Este estudo investiga a maneira com que pacientes que sofrem de epilepsia transitaram de estado e tratamento no Rio de Janeiro entre 2014 e 2023, focando no Sistema Público de Saúde (SIASUS). O Objetivo principal é realizar uma projeção de custo de inserção do canabidiol (CBD) no tratamento público para um período de 5 anos.
 
 \vspace{.4cm}
  
 \noindent
-\textbf{Palavras-chaves}: Epilepsia, Tratamento convencional, Canabidiol, Custos diretos, Custos indiretos, Graus da doença, Transições de estado, SIASUS, Rio de Janeiro.
+\textbf{Palavras-chaves}: Epilepsia, Transição de estado, Rio de Janeiro, Sistema Público de Saúde (SIASUS), Custo de inserção, Canabidiol (CBD), Tratamento público, Projeção de custo.
  
 \vspace{\onelineskip}
 
@@ -86,11 +86,11 @@ Daniel Cardoso Moraes de Oliveira\footnote{Orientador - Instituto de Computaçã
 
 \vspace{-.3cm}
 \begin{hyphenrules}{english}
-\noindent This study delves into the intricate costs of epilepsy treatment in Rio de Janeiro between 2014 and 2023, with a specific focus on the public health system (SIASUS). The primary objective is to conduct a meticulous comparison of the financial implications associated with conventional treatment using antiepileptic drugs (AEDs) and the emerging alternative of cannabidiol (CBD) therapy, taking into account the varying degrees of epilepsy severity.
+\noindent This study investigates how patients suffering from epilepsy transitioned through state and treatment in Rio de Janeiro between 2014 and 2023, focusing on the Public Health System (SIASUS). The main objective is to project the cost of integrating cannabidiol (CBD) into public treatment for a period of 5 years.
 \end{hyphenrules}
 \vspace{.4cm}
  
-\noindent \textbf{Keywords}: Epilepsy, Conventional treatment, Cannabidiol, Direct costs, Indirect costs, Degrees of Disease, State transitions, SIASUS, Rio de Janeiro.
+\noindent \textbf{Keywords}: Epilepsy, State transition, Rio de Janeiro, Public Health System (SIASUS), Cost of integration, Cannabidiol (CBD), Public treatment, Cost projection.
 
 \vspace{.4cm}
 
@@ -105,8 +105,6 @@ https://www.ncbi.nlm.nih.gov/books/NBK425767/
 No presente trabalho, um dos aspectos importantes a serem abordados é o uso do canabidiol (CBD) no tratamento de convulsões, especialmente aquelas crônicas causadas pelos diversos tipos de epilepsia. A epilepsia é um distúrbio neurológico caracterizado por crises espontâneas resultantes de atividade elétrica anormal no cérebro. Este grupo de distúrbios pode ser desencadeado por vários fatores. Atualmente, no Brasil, cerca de 3 milhões de pessoas sofrem de crises epilépticas, de acordo com a Secretaria de Saúde do Distrito Federal (Referenciar).
 
 O uso e comercialização do produto no brasil era proscrito até o ano de xxxx, sendo liberado primeiramente pela anvisa a importação 
-
-
 
 O Sistema Único de Saúde (SUS) oferece atendimento integral e gratuito para exames, diagnósticos e tratamentos, além da dispensação de medicamentos. Embora o tratamento medicamentoso ajude muitos pacientes a controlar as crises, cerca de um em cada tres são refratários aos tratamentos convencionais. O canabidiol (CBD), um composto derivado da planta \textit{Cannabis sativa}, tem emergido como uma alternativa para casos refratários e para menores de idade, potencialmente melhorando a qualidade de vida dos pacientes.
 
@@ -136,7 +134,9 @@ Esta grande área de estudo, quando voltada para a área da saúde, pode ser uti
 
 A recente liberação de novos medicamentos à base de canabidiol para o tratamento da epilepsia representa um marco significativo no cuidado da saúde pública. Esta medida não apenas oferece uma alternativa terapêutica promissora para pacientes que sofrem com crises refratárias, mas também tem o potencial de melhorar sua qualidade de vida. A introdução do canabidiol pode facilitar a transição de estados de saúde precários para uma condição mais estável e controlada. Além disso, ao considerar o impacto econômico, a adoção desses novos medicamentos pode representar uma mudança significativa nos custos associados ao tratamento da epilepsia.
 
-O objetivo deste estudo é realizar uma análise comparativa dos custos de tratamento para a epilepsia no estado do Rio de Janeiro, no período de 2014 a 2023, a partir da análise dos dados clínicos disponibilizados pelo SUS, assim como dados de custo associados, investigando as diferenças entre os custos reais do tratamento convencional e as projeções de custo com a introdução do canabidiol como opção de tratamento. A análise buscará identificar potenciais economias ou custos adicionais em relação à adoção do canabidiol como parte do tratamento para pacientes com epilepsia refratária.
+O objetivo deste estudo é realizar uma Projeção de custo de inserção do canabidiol
+
+análise comparativa dos custos de tratamento para a epilepsia no estado do Rio de Janeiro, no período de 2014 a 2023, a partir da análise dos dados clínicos disponibilizados pelo SUS, assim como dados de custo associados, investigando as diferenças entre os custos reais do tratamento convencional e as projeções de custo com a introdução do canabidiol como opção de tratamento. A análise buscará identificar potenciais economias ou custos adicionais em relação à adoção do canabidiol como parte do tratamento para pacientes com epilepsia refratária.
 
 \section{Desenvolvimento}
 
@@ -148,6 +148,7 @@ Para início da análise, foi necessário coletar os dados públicos no sistema 
     \centering
     \includegraphics[width=1\textwidth]{marcha_analitica.png}
     \caption{Marcha analítica do processo de analise dos dados}
+    \label{fig:marcha_analitica}
 \end{figure}
 
 \subsubsection{Coleta de dados}
@@ -160,21 +161,21 @@ No presente estudo foram filtradas as dispensações de medicamentos que estavam
 
 \subsubsection{Tratamento dos dados}
  
-A linguagem escolhida para trabalhar os dados foi Python, devido à sua rápida curva de aprendizado e grande variedade de bibliotecas disponíveis para trabalhar e visualizar os dados. Além do Python 3.12, foram utilizadas as bibliotecas Pandas, para criação de DataFrames, manipulação, transformação, análises dos dados e melhor visualização, e a biblioteca Matplotlib, para gerar gráficos a partir dos DataFrames.
+A linguagem escolhida para trabalhar os dados foi Python, devido à sua rápida curva de aprendizado e grande variedade de bibliotecas disponíveis para manipulação e visualização. Além do Python 3.12, foram utilizadas as bibliotecas Pandas, para criação de DataFrames, manipulação e transformação dos dados; Matplotlib e Seaborn, para gerar gráficos a partir dos DataFrames; e NumPy, para manipulação de arrays e realização de operações matemáticas com grandes volumes de dados.
 
-Primeiramente, deve-se concatenar as bases, visto que os arquivos vêm com os registros anuais. Dessa forma, o trabalho se concentra em apenas um DataFrame, facilitando as operações subsequentes. Foram encontrados 103.530 registros de dispensações, distribuídos em 51 colunas de informações. A fim de diminuir o volume dos dados, foi feita uma curadoria para retirar colunas que são irrelevantes para a análise, reduzindo de 51 colunas originais para apenas 24.
+Primeiramente, foi feita a concatenação das bases, pois os arquivos contêm registros anuais. Assim, o trabalho se concentrou em um único DataFrame, facilitando as operações subsequentes. Foram encontrados 103.530 registros de dispensações, distribuídos em 51 colunas de informações. Para reduzir o volume dos dados, foi feita uma curadoria para remover colunas irrelevantes para a análise, reduzindo de 51 colunas originais para 24.
 
-Em seguida, foram criados dicionários de chave e valor, visando tanto renomear colunas quanto traduzir seus conteúdos codificados para valores equivalentes, porém mais legíveis. Colunas com conteúdo de procedimento, motivos de saída e permanência, município e idade tiveram de ser mapeadas a partir das referências dos dicionários. (INCLUIR FONTE? BUSCAR ONDE TAVA A FONTE?).
+Em seguida, foram criados dicionários de chave e valor para renomear colunas e traduzir seus conteúdos codificados para valores mais legíveis. Colunas com informações sobre procedimentos, motivos de saída e permanência, município e idade foram mapeadas de acordo com as referências dos dicionários.
 
 \subsubsection{Criterios de inclusao}
 
-O estudo incluiu todos os pacientes que continham registros entre 2014 e 2023. Foram excluídos os pacientes que possuíam menos de 3 dispensações no período analisado, pois entendeu-se que, devido ao tempo da APAC, tais pacientes não poderiam ser considerados como estando em tratamento.
+O estudo incluiu todos os pacientes com registros entre 2014 e 2023. Foram excluídos os pacientes com menos de 3 dispensações no período analisado, pois considerou-se que, devido ao tempo da APAC, tais pacientes não poderiam ser considerados como estando em tratamento.
 
 Após a aplicação dos critérios de inclusão, o número de consultas registradas reduziu de 103.530 para 101.104, enquanto o número de pacientes únicos diminuiu de 5.509 para 5.312.
 
 \subsubsection{Análise Exploratória}
 
-Foi realizada uma análise exploratória dos dados a fim de compreender melhor as características da amostra. Dos pacientes únicos encontrados após aplicar os critérios de inclusão, 1.601 são menores de 18 anos e 3.837 são maiores de idade. A distribuição dos sexos ficou em 2.930 mulheres e 2.382 homens. É possível visualizar na Figura~\ref{fig:piramide_etaria_completa} a pirâmide etária dos pacientes:
+Foi realizada uma análise exploratória dos dados para compreender melhor as características da amostra. Entre os pacientes únicos encontrados após aplicar os critérios de inclusão, 1.601 são menores de 18 anos e 3.837 são maiores de idade. A distribuição por sexo é de 2.930 mulheres e 2.382 homens. A pirâmide etária dos pacientes está ilustrada na Figura~\ref{fig:piramide_etaria_completa}:
 
 \begin{figure}[ht!]
     \centering
@@ -183,13 +184,64 @@ Foi realizada uma análise exploratória dos dados a fim de compreender melhor a
     \label{fig:piramide_etaria_completa}
 \end{figure}
 
-Foram analisadas também particularidades sobre o tratamento utilizado. A dispensação total de material ficou entre cinco dos medicamentos disponibilizados pelo SUS, que ao longo dos anos distribuiu-se da seguinte forma:
+Observa-se que no sexo masculino há uma grande quantidade de pacientes com um ano ou menos, enquanto as mulheres têm seu valor mais destacado na faixa dos 54 anos.
+
+Foram analisadas também particularidades sobre o tratamento utilizado. A dispensação total de medicamentos disponibilizados pelo SUS ao longo dos anos distribuiu-se da seguinte forma:
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{saida_medicamentos_por_mes.png}
     \caption{Saída de medicamentos por ano.}
     \label{fig:saida_medicamentos_por_mes}
+\end{figure}
+
+Notou-se uma grande oscilação nas dispensações, provavelmente causada pela falta de abastecimento, que só conseguiu se estabilizar e manter um crescimento a partir de 2022. Observa-se a alternância em diversos períodos, onde a redução das dispensações de um medicamento era compensada pelo aumento de outro.
+
+Quanto à distribuição dos CIDs, a maioria dos pacientes está no CID 40.0 (Epilepsia). Os três CIDs subsequentes com mais pacientes são 40.8 (Outras epilepsias), 40.2 (Epilepsia e síndromes epilépticas sintomáticas definidas por sua localização (focal) (parcial) com crises parciais complexas) e 40.4 (Outras epilepsias e síndromes epilépticas generalizadas). 
+
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{contagem_cid_pacientes_unicos.png}
+    \caption{Distribuição de CID.}
+    \label{fig:contagem_cid_pacientes_unicos}
+\end{figure}
+
+\subsubsection{Modelagem}
+
+Modelagem
+
+\subsection{Resultados}
+
+\subsubsection{Analise descritiva}
+
+Como parte dos dados utilizados para construir a matriz de transição de estados, temos os gráficos que indicam os pacientes que iniciaram (Figura~\ref{fig:pacientes_iniciaram_tratamento_por_ano}) e saíram (Figura~\ref{fig:pacientes_sairam_tratamento_por_ano}) do tratamento durante o período analisado de 2014 a 2023.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{pacientes_iniciaram_tratamento_por_ano.png}
+    \caption{Pacientes que inciaram o tratamento por ano.}
+    \label{fig:pacientes_iniciaram_tratamento_por_ano}
+\end{figure}
+
+Observa-se que houve um número significativamente alto de pacientes iniciando o tratamento em 2014 e 2015. Em 2017, percebe-se uma queda acentuada, possivelmente devido a problemas na disponibilidade de medicamentos. A partir de 2019, há um aumento constante no número de pacientes iniciando o tratamento, atingindo um pico em 2023. Essas variações podem indicar mudanças na política de saúde, na disponibilidade de medicamentos ou em campanhas de conscientização.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{pacientes_sairam_tratamento_por_ano.png}
+    \caption{Pacientes que sairam do tratamento por ano.}
+    \label{fig:pacientes_sairam_tratamento_por_ano}
+\end{figure}
+
+Quanto a saida, percebe-se que, no ano de 2017, houve uma baixa movimentação tanto de entrada quanto de saída, coincidindo com a baixa e provável falta de medicamentos vista na Figura~\ref{fig:saida_medicamentos_por_mes}. O ano de 2016 teve um pico significativo de pacientes saindo do tratamento, com flutuações nos anos subsequentes e um aumento considerável em 2023. O pico em 2016 pode estar relacionado a uma crise específica ou mudança nas diretrizes de tratamento, enquanto o aumento em 2023 pode indicar problemas recorrentes ou mudanças nas práticas de tratamento.
+
+Além disso, observa-se que os anos 2014 e 2015 tiveram números relativamente altos de trocas de tratamento. Após uma queda em 2017, há um aumento gradual até 2023. A troca de tratamentos pode ser motivada por eficácia, efeitos colaterais ou novas opções terapêuticas se tornando disponíveis.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{pacientes_troca_tratamento_por_ano.png}
+    \caption{Pacientes que trocaram de tratamento por ano.}
+    \label{fig:pacientes_troca_tratamento_por_ano}
 \end{figure}
 
 Além disso, foram feitas pirâmides etárias com a idade da primeira retirada de cada dispensação de cada paciente, para que fosse analisada a faixa etária mais comum a cada dispensação. O resultado pode ser visto na Figura~\ref{fig:grid_piramides_etarias_medicamento} a seguir:
@@ -201,40 +253,8 @@ Além disso, foram feitas pirâmides etárias com a idade da primeira retirada d
     \label{fig:grid_piramides_etarias_medicamento}
 \end{figure}
 
-Ainda sobre o tratamento, foi extraido o numero de pacientes que iniciaram (Figura~\ref{fig:pacientes_iniciaram_tratamento_por_ano}) e que sairam (Figura~\ref{fig:pacientes_sairam_tratamento_por_ano}) do tratamento por ano, assim como o numero de trocas de procedimento (Figura~\ref{fig:pacientes_troca_tratamento_por_ano}).
-
-\begin{figure}[!ht]
-    \centering
-    \includegraphics[width=1\textwidth]{pacientes_iniciaram_tratamento_por_ano.png}
-    \caption{Pacientes que inciaram o tratamento por ano.}
-    \label{fig:pacientes_iniciaram_tratamento_por_ano}
-\end{figure}
-
-\begin{figure}[!ht]
-    \centering
-    \includegraphics[width=1\textwidth]{pacientes_sairam_tratamento_por_ano.png}
-    \caption{Pacientes que sairam do tratamento por ano.}
-    \label{fig:pacientes_sairam_tratamento_por_ano}
-\end{figure}
-
-\begin{figure}[!ht]
-    \centering
-    \includegraphics[width=1\textwidth]{pacientes_troca_tratamento_por_ano.png}
-    \caption{Pacientes que trocaram de tratamento por ano.}
-    \label{fig:pacientes_troca_tratamento_por_ano}
-\end{figure}
-
 \subsubsection{Modelagem}
 
-Modelagem
-
-\subsection{Resultados}
-
-\subsubsection{Analise descritiva}
-
-Analise descritiva
-
-\subsubsection{Modelagem}
 
 Modelagem
 
