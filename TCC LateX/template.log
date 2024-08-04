@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  3 AUG 2024 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.27)  4 AUG 2024 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,68 +691,71 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 58.
  [1
 
-{C:/Users/Bruno Trabalho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+{C:/Users/Bruno Trabalho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
+Underfull \vbox (badness 4940) has occurred while \output is active []
 
- [3]
-Overfull \hbox (244.57735pt too wide) in paragraph at lines 132--134
-\OT1/cmr/m/n/12 era con-si-de-rada sa-grada ou com pro-pri-e-da-des cu-ra-ti-vas. https://www.scielo.br/j/brjp/a/Z47fDGfxC9SwpbpwVPDBcWR/?lang=pt 
- []
-
-[4]
-<./images/marcha_analitica.png, id=40, 1860.9525pt x 2059.695pt>
+ [4] [5]
+<./images/marcha_analitica.png, id=95, 1860.9525pt x 2059.695pt>
 File: ./images/marcha_analitica.png Graphic file (type png)
 <use ./images/marcha_analitica.png>
-Package pdftex.def Info: ./images/marcha_analitica.png  used on input line 155.
+Package pdftex.def Info: ./images/marcha_analitica.png  used on input line 154.
 (pdftex.def)             Requested size: 426.0pt x 471.48848pt.
- [5] [6 <./images/marcha_analitica.png>] [7]
-<./images/piramide_etaria_completa.png, id=63, 1011.78pt x 578.16pt>
+ [6 <./images/marcha_analitica.png>]
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+ [7]
+<./images/piramide_etaria_completa.png, id=112, 1011.78pt x 578.16pt>
 File: ./images/piramide_etaria_completa.png Graphic file (type png)
 <use ./images/piramide_etaria_completa.png>
-Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 188.
+Package pdftex.def Info: ./images/piramide_etaria_completa.png  used on input line 199.
 (pdftex.def)             Requested size: 426.0pt x 243.43425pt.
-<./images/saida_medicamentos_por_mes.png, id=64, 867.24pt x 433.62pt>
+<./images/saida_medicamentos_por_mes.png, id=113, 867.24pt x 433.62pt>
 File: ./images/saida_medicamentos_por_mes.png Graphic file (type png)
 <use ./images/saida_medicamentos_por_mes.png>
-Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 199.
+Package pdftex.def Info: ./images/saida_medicamentos_por_mes.png  used on input line 210.
 (pdftex.def)             Requested size: 426.0pt x 212.99835pt.
- [8 <./images/piramide_etaria_completa.png>]
-<./images/contagem_cid_pacientes_unicos.png, id=72, 867.24pt x 578.16pt>
+ [8]
+<./images/contagem_cid_pacientes_unicos.png, id=123, 867.24pt x 578.16pt>
 File: ./images/contagem_cid_pacientes_unicos.png Graphic file (type png)
 <use ./images/contagem_cid_pacientes_unicos.png>
-Package pdftex.def Info: ./images/contagem_cid_pacientes_unicos.png  used on input line 211.
+Package pdftex.def Info: ./images/contagem_cid_pacientes_unicos.png  used on input line 222.
 (pdftex.def)             Requested size: 426.0pt x 283.99782pt.
- [9 <./images/saida_medicamentos_por_mes.png> <./images/contagem_cid_pacientes_unicos.png>]
-<./images/pacientes_iniciaram_tratamento_por_ano.png, id=85, 722.7pt x 433.62pt>
+<./images/pacientes_iniciaram_tratamento_por_ano.png, id=126, 722.7pt x 433.62pt>
 File: ./images/pacientes_iniciaram_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_iniciaram_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 228.
+Package pdftex.def Info: ./images/pacientes_iniciaram_tratamento_por_ano.png  used on input line 231.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
-<./images/pacientes_sairam_tratamento_por_ano.png, id=87, 722.7pt x 433.62pt>
+ [9 <./images/piramide_etaria_completa.png> <./images/saida_medicamentos_por_mes.png>] [10 <./images/contagem_cid_pacientes_unicos.png> <./images/pacientes_iniciaram_tratamento_por_ano.png>]
+<./images/pacientes_sairam_tratamento_por_ano.png, id=144, 722.7pt x 433.62pt>
 File: ./images/pacientes_sairam_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_sairam_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 237.
+Package pdftex.def Info: ./images/pacientes_sairam_tratamento_por_ano.png  used on input line 240.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
-<./images/pacientes_troca_tratamento_por_ano.png, id=90, 722.7pt x 433.62pt>
+<./images/pacientes_troca_tratamento_por_ano.png, id=147, 722.7pt x 433.62pt>
 File: ./images/pacientes_troca_tratamento_por_ano.png Graphic file (type png)
 <use ./images/pacientes_troca_tratamento_por_ano.png>
-Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 248.
+Package pdftex.def Info: ./images/pacientes_troca_tratamento_por_ano.png  used on input line 251.
 (pdftex.def)             Requested size: 426.0pt x 255.602pt.
- [10 <./images/pacientes_iniciaram_tratamento_por_ano.png>]
-<./images/grid_piramides_etarias_medicamento.png, id=101, 1445.4pt x 722.7pt>
+<./images/grid_piramides_etarias_medicamento.png, id=149, 1445.4pt x 722.7pt>
 File: ./images/grid_piramides_etarias_medicamento.png Graphic file (type png)
 <use ./images/grid_piramides_etarias_medicamento.png>
-Package pdftex.def Info: ./images/grid_piramides_etarias_medicamento.png  used on input line 257.
+Package pdftex.def Info: ./images/grid_piramides_etarias_medicamento.png  used on input line 260.
 (pdftex.def)             Requested size: 426.0pt x 212.99615pt.
- [11 <./images/pacientes_sairam_tratamento_por_ano.png> <./images/pacientes_troca_tratamento_por_ano.png>] [12 <./images/grid_piramides_etarias_medicamento.png>]
-<./images/Imagem1.png, id=126, 697.8572pt x 398.99063pt>
+
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [11 <./images/pacientes_sairam_tratamento_por_ano.png>]
+Underfull \vbox (badness 4765) has occurred while \output is active []
+
+ [12 <./images/pacientes_troca_tratamento_por_ano.png> <./images/grid_piramides_etarias_medicamento.png>]
+<./images/Imagem1.png, id=172, 697.8572pt x 398.99063pt>
 File: ./images/Imagem1.png Graphic file (type png)
 <use ./images/Imagem1.png>
-Package pdftex.def Info: ./images/Imagem1.png  used on input line 304.
+Package pdftex.def Info: ./images/Imagem1.png  used on input line 307.
 (pdftex.def)             Requested size: 426.0pt x 243.56049pt.
- [13] [14 <./images/Imagem1.png>] (template.bbl
+ [13] [14 <./images/Imagem1.png>] [15] (template.bbl
 bibitemlist
-) [15] (template.lof) [16] (template.lot) [17] [18] [19] [20]
+[16]) [17] (template.lof) [18] (template.lot) [19] [20] [21] [22]
 \tf@lof=\write4
 \openout4 = `template.lof'.
 
@@ -766,17 +769,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15419 strings out of 474486
- 244508 string characters out of 5753541
+ 15483 strings out of 474486
+ 245942 string characters out of 5753541
  1941542 words of memory out of 5000000
- 37440 multiletter control sequences out of 15000+600000
- 563970 words of font info for 55 fonts, out of 8000000 for 9000
+ 37489 multiletter control sequences out of 15000+600000
+ 564347 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,890b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Bruno Trabalho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on template.pdf (20 pages, 1263506 bytes).
+ 99i,12n,107p,890b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Bruno Trabalho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\Bruno Trabalho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on template.pdf (22 pages, 1304016 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
