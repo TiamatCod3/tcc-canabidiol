@@ -106,11 +106,11 @@ Seu uso no brasil era proscrito até o ano de 2015, quando foi publicada a RDC n
 
 O Sistema Único de Saúde (SUS) oferece atendimento integral e gratuito para exames, diagnósticos e tratamentos, incluindo medicamentos. Sua estrutura de financiamento na assistência farmacêutica envolve três componentes: básico, estratégico e especializado. O básico envolve medicamentos de menor complexidade e custo como por exemplo hipertensão; o estratégico para doenças negligenciadas ou programas específicos de saúde pública tendo como exemplo os medicamentos para o tratamento do HIV e tuberculose.
 
-Em um nível de maior complexidade estão os medicamentos do componente especializado da assistencia farmaceutica que envolve medicamentos de maior custo único ou que o tratamento a médio e longo praz tenham maior custo ~\cite{portaria1554}. O acesso aos medicamentos deste grupo de tratamento é regulado pelos Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) elaborados pelo Ministério da Saúde em conjunto com a Comissão Nacional de Incorporação de Tecnologias (CONITEC) ~\cite{lei12401}. 
+Em um nível de maior complexidade estão os medicamentos do componente especializado da assistencia farmacêutica que envolve medicamentos de maior custo único ou que o tratamento a médio e longo praz tenham maior custo ~\cite{portaria1554}. O acesso aos medicamentos deste grupo de tratamento é regulado pelos Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) elaborados pelo Ministério da Saúde em conjunto com a Comissão Nacional de Incorporação de Tecnologias (CONITEC) ~\cite{lei12401}. 
 
 A CONITEC é responsável por realizar avaliações farmacoeconômicas que utilizam ferramentas para decidir se um determinado medicamento ou tecnologia devem ser incorporados ao SUS. Os principais critérios utilizados incluem revisões sistemáticas (RS), análises de custo-efetividade (ACE) e análises de impacto orçamentário (AIO) (~\cite{revisoesRS}, ~\cite{analiseCE} e ~\cite{diretrizesAIO}). Os relatórios de recomendação gerados passam pelo crivo de consultas públicas e por fim é decidida por sua incorporação ou não (referenciar), isso inclui medicamentos à base de canabidiol.
 
-O que tem sido verificado na literatura é que embora o tratamento medicamentoso ajude muitos pacientes a controlar as crises, cerca de um em cada tres são refratários aos tratamentos convencionais ~\cite{relatorioSociedadeConitec}. O CBD tem emergido como uma alternativa para casos refratários e para menores de idade, potencialmente melhorando a qualidade de vida dos pacientes.
+O que tem sido verificado na literatura é que embora o tratamento medicamentoso seja relevante para os pacientes controlarem as crises, cerca de um em cada três são refratários aos tratamentos convencionais ~\cite{relatorioSociedadeConitec}. O CBD tem emergido como uma alternativa para casos refratários e para menores de idade, potencialmente melhorando a qualidade de vida destes pacientes.
 
 Em 2021, a CONITEC elaborou o primeiro relatório de recomendação relacionado à incorporação do Canabidiol para tratamento de epilepsias refratárias em crianças e adolescentes ~\cite{recomencacaoConitec}. Este relatório não recomendou a incorporação do medicamento, mas trouxe à luz a necessidade de avaliar esta tecnologia a ser ofertada no âmbito do SUS.
 
@@ -118,11 +118,12 @@ Com uma crescente demanda pela incorporação do medicamento no SUS, o estado do
 
 Com a emergência da ciência de dados, a área vem sendo cada vez mais valorizada e essencial em diversos setores devido à sua capacidade de transformar dados em insights valiosos e subsidiar a tomada de decisão. Com o advento de tecnologias avançadas e o aumento exponencial da quantidade de dados gerados diariamente, ferramentas como Python, R, SQL, e plataformas de visualização de dados como Tableau, Power BI, além de bibliotecas específicas, são amplamente utilizadas pelos profissionais da área para realizar análises complexas, criar modelos preditivos e comunicar resultados de maneira clara e eficaz por meio de gráficos e outras visualizações.
 
-Nese contexto, partir da coleta e tratamento de dados públicos e uso de ferramentas e premissas da ciencia de dados, o objetivo deste estudo é realizar uma análise do impacto orçamentário da inserção do canabidiol no tratamento da epilepsia no estado do Rio de Janeiro, considerando os custos atuais e as projeções futuras, baseando-se no histórico presgresso de dispensações do referido medicamento.
+Nese contexto, partir da coleta e tratamento de dados públicos e uso de ferramentas e premissas da ciência de dados, o objetivo deste estudo é realizar uma análise do impacto orçamentário da inserção do canabidiol no tratamento da epilepsia no estado do Rio de Janeiro, considerando os custos atuais e as projeções futuras, baseando-se no histórico presgresso de dispensações do referido medicamento.
 
 \section{Referencial Teórico}
 
 \subsection{Epilepsia no SUS e Canabidiol}
+
 A epilepsia se refere a um distúrbio da atividade cerebral caracterizado pela ocorrência periódica e espontânea de atividade elétrica altamente sincronizada, acompanhada de manifestações comportamentais. Dessa forma, não é uma única doença ou síndrome, e sim um grupo de distúrbios que ocorrem a partir de funções cerebrais alteradas ~\cite{scorza_albuquerque_arida_cavalheiro_2007}.
 
 Essa complicação pode ocorrer motivada por diversos fatores, como febre, intoxicação, alterações vasculares ou doenças degenerativas. De acordo com a Organização Mundial da Saúde (OMS), no ano de 2022 a epilepsia acometia cerca de 2\% da população brasileira, e cerca de 50 milhões de pessoas no mundo ~\cite{epilepsia2022OMS}. No Brasil é possível receber atendimento integral e gratuito pelo Sistema Único de Saúde (SUS), tendo 29 estabelecimentos habilitados para tratamento de alta complexidade em neurologia/neurocirurgia para abranger desde consultas, exames, diagnósticos, tratamento e fornecimento de medicamentos.
@@ -133,13 +134,95 @@ O canabidiol (CBD), um composto derivado da planta \textit{Cannabis sativa}, sur
 
 Após séculos de uso tradicional e diversos estudos científicos, o CBD foi finalmente isolado na década de 40. Em 1963, a síntese do CBD foi concluída. Já o THC, canabinoide responsável pelos efeitos psicoativos e analgésicos, foi isolado em 1964 e sintetizado apenas em 1971 ~\cite{cannabis12000anos}.
 
+A eficácia e segurança do CBD em comparação com os tratamentos antiepilépticos convencionais têm sido objeto de vários estudos clínicos. O uso de CBD tem demonstrado resultados promissores, especialmente em pacientes refratários aos tratamentos tradicionais. Estudos clínicos e revisões sistemáticas são essenciais para aprofundar o conhecimento sobre a eficácia do CBD e suas possíveis interações com outros medicamentos antiepilépticos.
+
+"https://pubmed.ncbi.nlm.nih.gov/30390221/"
+"https://www.scielo.br/j/anp/a/Hw3WJKnhvbxvdCqxc9tNDNd/"
+
+A regulamentação do uso medicinal do CBD varia significativamente entre diferentes países. No Brasil, a Anvisa regulamenta o uso de produtos à base de cannabis para fins medicinais, mas ainda existem barreiras significativas quanto ao acesso amplo e equitativo a esses tratamentos. É crucial discutir as políticas de saúde pública que poderiam facilitar o acesso ao CBD, especialmente para pacientes refratários aos tratamentos convencionais. Um caso recente foi a incorporação do canabidiol na política de saúde do estado de São Paulo.
+"https://www.demarest.com.br/en/life-sciences-newsletter-december-2023/"
+
+
+A pesquisa sobre o uso de CBD na epilepsia está em constante evolução. Novas formulações e métodos de administração estão sendo desenvolvidos para aumentar a eficácia e minimizar os efeitos colaterais. A continuidade e expansão dos estudos clínicos são fundamentais para estabelecer protocolos de tratamento mais eficazes e seguros.
+"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10586905/"
+"https://www.mdpi.com/1420-3049/28/6/2805"
+
+Os custos de tratamento com CBD em comparação com os tratamentos convencionais devem ser analisados, considerando tanto os custos diretos quanto os indiretos. Além disso, é importante discutir o impacto social da adoção de novos tratamentos, incluindo a redução do estigma associado ao uso medicinal da cannabis e a melhora na qualidade de vida dos pacientes. 
+"https://www.sciencedirect.com/science/article/abs/pii/S0014488622003132"
+"https://www.researchgate.net/publication/343227151_Cost-Effectiveness_of_Cannabidiol_Adjunct_Therapy_versus_Usual_Care_for_the_Treatment_of_Seizures_in_Lennox-Gastaut_Syndrome"
+
+\subsection{Avaliação de Tecnologias em Saúde}
+
+As técnicas e tecnologias na saúde evoluíram de forma significativa nos últimos 100 anos. Tanto medicamentos novos como a penicilina, métodos diagnóticos como tomografia computadorizada e ressonância magnética nuclear e procedimentos cirúrgicos cada vez mais precisos e pouco invasivos, contribuíram para um aumento importante da expectativa da população mundial, dobrando de uma média de 40 anos para 80 anos. 
+Referencias
+"Fleming, A. (1929). On the antibacterial action of cultures of a penicillium, with special reference to 
+their use in the isolation of B. influenzae. British Journal of Experimental Pathology, 10(3), 226-236."
+"Cormack, A. M. (1979). Computed tomography: some history and recent developments. Proceedings of the IEEE, 67(9), 1278-1285."
+"Lauterbur, P. C. (1973). Image formation by induced local interactions: examples employing nuclear magnetic resonance. Nature, 242(5394), 190-191.   
+Riley, J. C. (2005). Estimates of regional and global life expectancy, 1800–2001. Population and Development Review, 31(3), 537-543.   
+World Bank. (2023). Life expectancy at birth, total (years). World Bank Open Data."
+
+As tecnologias citadas anteriormente são consideradas disruptivas por mudarem o paradigma da saúde à época de suas descobertas, porém ao longo destes anos percebe-se que a maioria das novas tecnologias representam um ganho incremental àquelas vigentes com custos muito maiores. Desta forma, o campo de avaliação de tecnologias em saúde se tornou uma exigência para que sejam feitos estudos comparativos de eficácia e efetividade destas tecnologias, bem como comprar os custos com relação aos ganhos de expectativa ou qualidade de vida, bem como o impcato que tais tecnologias podem causar nos orçamentos públicos e privados.
+"Referencias"
+"Avaliação de Tecnologias em Saúde: Drummond, M. F., Sculpher, M. J., Claxton, K., Stoddart, G. L., & Torrance, G. W. (2015). Methods for the economic evaluation of health care programmes (4th ed.). Oxford University Press. Este livro é um guia completo sobre os métodos de avaliação econômica em saúde, incluindo análises de custo-efetividade e custo-utilidade, essenciais para a tomada de decisão em ATS."
+
+Neste sentido, desponta a medicina baseada em evidências que busca embasar a prática clínica em informações científicas sólidas e confiáveis. Se destacam como fontes cruciais de evidência as revisões sistemáticas e os ensaios clínicos randomizados (ECRs) para avaliar a efetividade e segurança de medicamentos.
+
+Como base nos dados de eficácia, efetividade e segurança das tecnologias é possível estabelecer modelos que acolhem estas evidências e sitentizam na forma de medidas comparáveis. A mais utilizada atualmente é o QALY que são os anos de vida ajustados por qualidade. É uma medida síntese que varia de 0 a 1 no estado de saúde de um indivíuo sendo a saude plena avaliada como 1 e a morte como 0. 
+
+Apesar do estado de saúde poder ser mensurado como mediads objetivas, é possível qualifíca-los por meio de questionários e atribuir um calor às condições atuais de um determinado indivíduo. Quando se comprarm os ganhos de QALY entre dirferentes terapias é é atribuído um custo para que tal ganho seja alcançado, são considerados estudos de custo-efetividade, que em suma define quanto se pode gastar para ganhar 1 QALy de vida na população em geral.
+
+MOSTRAR quadro de custo efetividade
+
+Ao se verificar a evidencia de ganho para determinados, a avaliação econômica da tecnologia é finalizada por meio de análise de impacto orçamentário que define criterios de difusão da tecnologia em determinado horizonte temporal e estimas os custos associados a esta tecnologias. É importante destacar que esta avaliação é relevante, pois os recursos são finitos, e tais análises permitem aos gestores tomarem a decisão sobre a incorporação de determinada tecnologia e quais são os mecanismos regulatórios para seu acesso.
+"Livro de ats"
+
+A abordagem sobre qual modelagem deve ser utilizada inclui definir parâmetros mais refinados ou estimar custo baseados em determinadas taxas de difusão. O modelo amplamente utilizado para avaliações farmacoeconômicas é o modelo de Markov. Este modelo estabelece estados iniciais e se baseia na probabilidade de transição entre os estados para determinar os custos e efetividade ao longo de um determinado número de ciclos a ser definido.
+"Manul de impacto orçamentario"
+
+O modelo então é executado de duas formas. A primeira envolve acompanhar uma coorte de paciente com tamanho N que são incluídos no modelo e as distribuições são refeitas a cada ciclo considerando as probabilidades de transição entre os estados. A segunda envolve uma transição mais robusta que considera cada indivíduo como único e seus dados são computados a cada ciclo resultando em uma variação mais refinada e específica para o modelo. Este modelo é chamado de simulação de Monte Carlo.
+"Referencia Drummond"
+
+Uma das vantangens deste método é estmiar a variabilidade em torno do resultado médio permitindo a construção de cenários mais heterogêneos a serem analisados. Isto se deve principalmente à natureza aleatória da evolução dos pacientes e não da incerteza do modelo utilizado.
+"Referencia livro de avaliação de tecnologias em saúde"
+
+A realização de simulações de Monte Carlo é custoza do ponto de vista computacional. Atualmente, devido ao uso de bibliotecas mais robustas e eficientes voltadas para ciência de dados e ao aumento do poder computacional é possível realizar tais atividades mesmo em computadores de uso doméstico.
+
+
 \subsection{Ciência de Dados}
 
 Desde os primórdios da humanidade, registros foram criados por meio de gravuras e pinturas nas paredes e em objetos cotidianos. Com a invenção da escrita, a produção de dados e registros aumentou significativamente, tornando mais fácil difundir esses conhecimentos. No entanto, o verdadeiro salto ocorreu com a revolução digital e o surgimento dos computadores. Esse avanço exponencial permitiu a facilidade de armazenar uma quantidade avassaladora de informações e, a partir do processamento dessas informações, revelou o potencial dos dados para gerar conhecimento, identificar padrões, tomar decisões informadas e até fazer previsões. Como resultado, surgiu uma nova área de estudo: a ciência de dados.
 
 A ciência de dados tem como objetivo criar valor a partir de processos de busca e conhecimento sobre os dados. Porém, por si só a ciência de dados não traz esse valor, é necessário um trabalho de análise desses dados para que se possa extrair o máximo deles o possível, e tornar a informação em algo objetivo que se possa ser utilizado.
 
-Esta grande área de estudo, quando voltada para a área da saúde, pode ser utilizada para diversos fins, como auxílio no desenvolvimento de novos medicamentos, desenvolvimento de melhores estratégias de formulação de políticas públicas, porém destaca-se a divisão de 'dados clínicos' e 'dados de comportamento' para as análises. Os dados clínicos vêm de anotações médicas, resultados de exames e dados vindos de medidores. Tais informações são utilizadas para acompanhar o estado de saúde de pacientes e ajudar no diagnóstico. Os dados de comportamento monitoram as informações fisiológicas, como frequência cardíaca, qualidade de sono, respiração e informações oculares. Esses dados auxiliam na tentativa de prever distúrbios baseados nessas informações.
+Esta importante área de estudo, quando voltada para a área da saúde, pode ser utilizada para diversos fins, como auxílio no desenvolvimento de novos medicamentos, desenvolvimento de melhores estratégias de formulação de políticas públicas, porém destaca-se a divisão de 'dados clínicos' e 'dados de comportamento' para as análises. Os dados clínicos vêm de anotações médicas, resultados de exames e dados vindos de medidores. Tais informações são utilizadas para acompanhar o estado de saúde de pacientes e ajudar no diagnóstico. Os dados de comportamento monitoram as informações fisiológicas, como frequência cardíaca, qualidade de sono, respiração e informações oculares. Esses dados auxiliam na tentativa de prever distúrbios baseados nessas informações.
+
+No campo da ciência de dados, o processo de extração, transformação e carga (ETL) e a análise de dados primários públicos desempenham papéis cruciais na geração de insights valiosos. O ETL é um conjunto de procedimentos que permite a extração de dados de várias fontes, sua transformação em um formato adequado e sua carga em um sistema de armazenamento para análise. A utilização de dados primários públicos, disponíveis através de fontes governamentais e outras entidades, proporciona uma base rica e diversificada para análises científicas e empresariais.
+
+
+Extração dos dados
+A extração de dados é a primeira etapa do processo ETL. No contexto de dados primários públicos, esta etapa envolve a coleta de dados de fontes como bases de dados governamentais, registros públicos e repositórios de pesquisa. Estes dados são frequentemente não estruturados ou semi-estruturados, necessitando de técnicas robustas de extração para garantir a integridade e a precisão dos dados coletados.
+
+A fonte primária dos dados a ser utilizada é do DATASUS que disponibiliza os arquivos de acordo com os tipos de susistemas que o compoe. Um deles é o sistema de produção amulbatorial SIASUS, que permite extrair dados de Autorização de Procedimentos de Alto Custo (APAC) em que os dados são atomizados por paciente, mas os identificadores únicos são criptografados e descaracterizados para não permitir a identificação destes pacientes.
+
+Transformação de Dados
+A transformação de dados é a fase intermediária do processo ETL, onde os dados extraídos são limpos, normalizados e convertidos em um formato utilizável. Este passo é crucial para garantir que os dados estejam consistentes e compatíveis para análises subsequentes.
+
+Principais Técnicas de Transformação
+Limpeza de Dados: Remoção de duplicatas, correção de valores incorretos ou ausentes, e padronização de formatos.
+Normalização: Ajuste dos dados para que estejam em um formato consistente, facilitando a comparação e análise.
+Integração de Dados: Combinação de dados de diferentes fontes para criar um conjunto de dados coeso e abrangente.
+
+Carga de Dados
+A carga de dados é a última etapa do processo ETL, onde os dados transformados são inseridos em um sistema de armazenamento, como um data warehouse, para análise. Esta etapa assegura que os dados estejam prontamente disponíveis para os cientistas de dados realizarem suas análises.
+
+Análise de Dados
+Com os dados carregados em um sistema adequado, a fase de análise pode começar. A análise de dados envolve a aplicação de técnicas estatísticas, algoritmos de aprendizado de máquina e visualização de dados para extrair insights significativos.
+
+Métodos de Análise Comuns
+Análise Descritiva: Utilização de estatísticas descritivas para resumir e compreender os dados.
+Análise Preditiva: Aplicação de modelos de aprendizado de máquina para prever tendências futuras com base nos dados históricos.
+Análise Prescritiva: Fornecimento de recomendações baseadas em análises preditivas e descritivas para a tomada de decisões.
 
 A recente liberação de novos medicamentos à base de canabidiol para o tratamento da epilepsia representa um marco significativo no cuidado da saúde pública. Esta medida não apenas oferece uma alternativa terapêutica promissora para pacientes que sofrem com crises refratárias, mas também tem o potencial de melhorar sua qualidade de vida. A introdução do canabidiol pode facilitar a transição de estados de saúde precários para uma condição mais estável e controlada. Além disso, ao considerar o impacto econômico, a adoção desses novos medicamentos pode representar uma mudança significativa nos custos associados ao tratamento da epilepsia.
 
